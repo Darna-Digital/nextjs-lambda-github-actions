@@ -6,7 +6,8 @@
     "build": "next build --turbopack",
     "dev": "next dev --turbopack",
     "lint": "eslint",
-    "start": "next start"
+    "start": "next start",
+    "update-dependencies": "pnpm update --latest"
   },
   "dependencies": {
     "next": "15.5.5",
