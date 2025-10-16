@@ -18,7 +18,7 @@ env:
   CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
   AWS_REGION: eu-north-1
   AWS_SDK_LOAD_CONFIG: 0
-  STAGE: "production"
+  STAGE: "production-example"
 
 jobs:
   remove-production:
